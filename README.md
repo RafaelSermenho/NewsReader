@@ -11,12 +11,12 @@ This app uses *MVVM* (**M**odel-**V**iew-**V**iew**M**odel).
 Why? I must confess that I not experienced with MVVM pattern and that's why I decided to try it.  
 The main advantage that I could note is that is much easier an intuitive to create classes with single responsibilities. 
 
-Another great think that I learned was the use of LiveData to update the UI with results from data server (I wish that I had the knowledge ~~and opportunity~~ to use it in my previous projects.
+Another great think that I learned was the use of LiveData to update the UI with results from data server (I wish that I had the knowledge ~~and opportunity~~ to use it in my previous projects).
 
 Some interesting characteristics about MVVM pattern implemented here:
 - The ViewModel doesn't contains any reference to activities, fragments or views and this avoid leaks due to screen rotation.
 - The ViewModel exposes data using LiveData.
-- The views are subscribing to the ViewModel LiveData objects, that are lifecycle-aware components. This is great because the data changes are not applied if the observer are no active. (Avoiding null pointers, invalid state exception, etc).
+- The views are subscribing to the ViewModel LiveData objects, that are lifecycle-aware components. This is great because the data changes are not applied if the observer is not active. (Avoiding null pointers, invalid state exception, etc).
 
 ## DI  
 For dependency injection I'm using Koin (https://github.com/InsertKoinIO/koin). Why? Is written in Kotlin and it's very simple to start using it. The learning curve is low and it's not complex as Dagger.  
