@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "sources": [
+    {
+      "id": "ars-technica",
+      "name": "Ars Technica",
+      "description": "The PC enthusiast's resource. Power users and the tools they love, without computing religion.",
+      "url": "http://arstechnica.com",
+      "category": "technology",
+      "language": "en",
+      "country": "us"
+    }
+  ]
+}
