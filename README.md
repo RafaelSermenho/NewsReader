@@ -11,7 +11,7 @@ This app uses *MVVM* (**M**odel-**V**iew-**V**iew**M**odel).
 Why? I must confess that I not experienced with MVVM pattern and that's why I decided to try it.  
 The main advantage that I could note is that is much easier an intuitive to create classes with single responsibilities. 
 
-Another great think that I learned was the use of LiveData to update the UI with results from data server (I wish that I had the knowledge ~~and opportunity~~ to use it in my previous projects).
+Another great thing that I learned was the use of LiveData to update the UI with results from data server (I wish that I had the knowledge ~~and opportunity~~ to use it in my previous projects).
 
 Some interesting characteristics about MVVM pattern implemented here:
 - The ViewModel doesn't contains any reference to activities, fragments or views and this avoid leaks due to screen rotation.
